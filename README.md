@@ -1,16 +1,11 @@
 # Welcome to @koromerzhin/template-drupal 👋
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-
 ![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)
-
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/koromerzhin/template-drupal/graphs/commit-activity)
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+![Continuous Integration](https://github.com/koromerzhin/template-drupal/workflows/Continuous%20Integration/badge.svg?branch=develop)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-![Continuous Integration](https://github.com/koromerzhin/template-drupal/workflows/Continuous%20Integration/badge.svg?branch=develop)
 
 > Template de site internet sous drupal
 
@@ -31,6 +26,8 @@ docker swarm
 Hosts:
 
 - drupal.traefik.me
+- mailhog-drupal.traefik.me
+- phpmyadmin-drupal.traefik.me
 
 ## Récupérer les images docker
 
