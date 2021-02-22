@@ -16,8 +16,6 @@ services:
     networks:
       - net
       - proxynetwork
-    depends_on:
-      - proxynetwork
     deploy:
       labels:
         - "traefik.enable=true"
