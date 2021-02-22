@@ -16,7 +16,7 @@ jobs:
       - name: 'Create proxy network'
         run: make docker create-network
       - name: 'Build containers'
-        run: make env-prod
+        run: make docker deploy
       - name: Setup PHP, with composer and extensions
         uses: shivammathur/setup-php@v2
         with:
