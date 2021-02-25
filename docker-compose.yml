@@ -36,7 +36,6 @@ services:
       - ${PWD}/dump:/dump
     networks:
       - net
-    volumes:
     deploy:
       labels:
         - "traefik.enable=false"
