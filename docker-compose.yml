@@ -31,8 +31,12 @@ services:
       MYSQL_USER: siteinternet
       MYSQL_PASSWORD: password
       TZ: Europe/Paris
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ${PWD}/dump:/dump
     networks:
       - net
+    volumes:
     deploy:
       labels:
         - "traefik.enable=false"
